@@ -1,6 +1,6 @@
 # Vethuk
 
-A Next.js waitlist application for VibeNear entertainment platform.
+A Next.js waitlist application for Vethuk entertainment platform.
 
 ## Setup
 

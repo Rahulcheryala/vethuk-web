@@ -71,7 +71,7 @@ export default function JoinWaitlist() {
       })
 
       if (response.ok) {
-        toast.success('Successfully joined the waitlist! \n We\'ll notify you when VibeNear goes live.')
+        toast.success('Successfully joined the waitlist! \n We\'ll notify you when Vethuk goes live.')
 
         // Clear form on success
         setFormData({
@@ -98,7 +98,7 @@ export default function JoinWaitlist() {
 
           // Show appropriate message based on error type
           if (errorData.phone && errorData.phone[0]?.includes('already exists')) {
-            toast.error('We understand your excitement! 🎉 You have already joined the waitlist. We\'ll notify you as soon as VibeNear goes live in your area!')
+            toast.error('We understand your excitement! 🎉 You have already joined the waitlist. We\'ll notify you as soon as Vethuk goes live in your area!')
           } else {
             toast.error('Please fix the errors in the form')
           }
@@ -136,10 +136,10 @@ export default function JoinWaitlist() {
         {/* First Child - Text Content */}
         <div className="max-w-[602px] flex flex-col gap-3">
           <h2 className="tablet:text-5xl mobile:text-4xl text-[32px] tablet:leading-16 leading-12 font-bold text-[#102C66] whitespace-nowrap">
-            Be <span className='font-playfair'>first</span> on VibeNear
+            Be <span className='font-playfair'>first</span> on Vethuk
           </h2>
           <p className="tablet:text-[28px] mobile:text-2xl text-xl tablet:leading-8 font-semibold text-[#1B1E25]">
-            We&apos;ll notify you when VibeNear goes live in your area—with early-bird perks
+            We&apos;ll notify you when Vethuk goes live in your area—with early-bird perks
           </p>
         </div>
 
